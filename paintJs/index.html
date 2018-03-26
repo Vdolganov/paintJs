@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+   <div  class="canvcont"> 
+    <canvas width = "500", height="300" id="canvas">	
+    </canvas>
+
+   </div> 
+   <label for="size"> Толщина пера : <span id="showSize"> </span> </label>
+   <input type="range" id="size" min="1" max="100" step="1" value="2">
+
+
+   <div class="ourcolors"> 
+       <p>Цвет</p>
+       <div id="black"></div>
+       <div id="red"></div>
+       <div id="yellow"></div>
+       <div id="green"></div>
+       <div id="blue"></div>
+       <div id="violet"></div>
+       <div id="brown"></div>
+       <div id="white"></div>
+   </div>
+   <button id="save">Сохранить</button>
+   <button id="clear">Очистить</button>
+   <img id="img">
+   <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
